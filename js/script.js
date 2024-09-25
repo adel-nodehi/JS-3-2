@@ -1,4 +1,7 @@
-const str = "HeLlO world!";
+const str = "   HeLlO    world!   ";
+
+// console.log(str);
+// console.log(str.trim());
 
 // const result1 = str.slice(7, 10).toUpperCase();
 
