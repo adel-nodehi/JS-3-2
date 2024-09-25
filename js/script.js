@@ -1,4 +1,8 @@
-const str = "HeLlOs world!";
+const str = "HeLlO world!";
+
+// const result1 = str.slice(7, 10).toUpperCase();
+
+// console.log(result1);
 
 // console.log(str[1]);
 // console.log(str[4]);
@@ -20,10 +24,9 @@ const str = "HeLlOs world!";
 // console.log(str.toUpperCase());
 // console.log("HeLlOs world!".toUpperCase());
 
-const capitalize = function (str) {
-  const string = str.toLowerCase();
-  return string[0].toUpperCase() + string.slice(1);
-};
+// const capitalize = function (str) {
+//   return str[0].toUpperCase() + str.slice(1).toLowerCase();
+// };
 
 // console.log(capitalize("maryam"));
 // console.log(capitalize("maRyAm"));
