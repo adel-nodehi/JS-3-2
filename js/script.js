@@ -1,4 +1,19 @@
-const str = "Section 2";
+const ages = [12, 25, 5, 82];
+
+// const result = ages.find(function (age) {
+//   return age > 18;
+// });
+
+const result = ages.findIndex(function (age) {
+  return age > 18;
+});
+
+console.log(result);
+
+// console.log(ages.indexOf(25));
+
+// console.log(ages[1]);
+// console.log(ages.at(-1));
 
 // console.log(str.padStart(15, "-").padEnd(22, "-"));
 // console.log(str.padEnd(22, "-"));
