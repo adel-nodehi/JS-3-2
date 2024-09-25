@@ -1,14 +1,86 @@
-const ages = [12, 25, 5, 82];
+"use strict";
+
+const users = "cena shayan negin shiva maryam narges ali saeed hossein";
+
+// [4, 6, 5, 5, 6, 6, ...]
+
+// const result = users.split(" ").map((user) => {
+//   return user.length;
+// });
+
+// console.log(
+//   users.split(" ").map((user) => {
+//     return user.length;
+//   })
+// );
+
+/**
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ */
+const ages = [12, 15, 26, 23, 8];
+// [24, 45, 52, 69, 16]
+// let result = [];
+
+// for (let i = 0; i < ages.length; i++) {
+//   result.push(ages[i] * 2);
+// }
+
+// ages.forEach((age) => {
+//   result.push(age * 2);
+// });
+
+// const result = ages.map((age) => {
+//   if (age % 2 === 0) {
+//     return age * 2;
+//   } else {
+//     return age * 3;
+//   }
+// });
+
+// console.log(ages);
+// console.log(result);
+
+// const result = ages.every((age) => {
+//   return age > 0;
+// });
+
+// console.log(result);
 
 // const result = ages.find(function (age) {
 //   return age > 18;
 // });
 
-const result = ages.findIndex(function (age) {
-  return age > 18;
-});
+// const result = ages.findIndex(function (age) {
+//   return age > 18;
+// });
 
-console.log(result);
+// const compareAge = (age) => age > 18;
+
+// const result = ages.findIndex(compareAge);
+
+// console.log(result);
 
 // console.log(ages.indexOf(25));
 
