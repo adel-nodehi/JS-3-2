@@ -1,7 +1,10 @@
-const str = "Hi i'm leyla and 20 years old, my friend name is leyla too.";
+const str = "ba men sanama ";
 
-console.log(str.replace("leyla", "Negin"));
-console.log(str.replaceAll("leyla", "Negin"));
+console.log(str + " del".repeat(60));
+console.log("Hello ".repeat(5));
+
+// console.log(str.replace("leyla", "Negin"));
+// console.log(str.replaceAll("leyla", "Negin"));
 
 // console.log(str.charAt(1));
 // console.log(str[1]);
