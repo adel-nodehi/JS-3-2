@@ -1,7 +1,11 @@
-const str = "ba men sanama ";
+const str = "Section 2";
 
-console.log(str + " del".repeat(60));
-console.log("Hello ".repeat(5));
+// console.log(str.padStart(15, "-").padEnd(22, "-"));
+// console.log(str.padEnd(22, "-"));
+
+// console.log(str + " del".repeat(60));
+
+// console.log("Hello ".repeat(3));
 
 // console.log(str.replace("leyla", "Negin"));
 // console.log(str.replaceAll("leyla", "Negin"));
