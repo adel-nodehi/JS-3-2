@@ -39,28 +39,13 @@ const users = "cena shayan negin shiva maryam narges ali saeed hossein";
  *
  *
  */
-const ages = [12, 15, 26, 23, 8];
-// [24, 45, 52, 69, 16]
-// let result = [];
+const ages = [12, 2, 15, 8, 26, 5, 23, 8];
 
-// for (let i = 0; i < ages.length; i++) {
-//   result.push(ages[i] * 2);
-// }
+const result = ages.filter((age) => {
+  return age > 10;
+});
 
-// ages.forEach((age) => {
-//   result.push(age * 2);
-// });
-
-// const result = ages.map((age) => {
-//   if (age % 2 === 0) {
-//     return age * 2;
-//   } else {
-//     return age * 3;
-//   }
-// });
-
-// console.log(ages);
-// console.log(result);
+console.log(result);
 
 // const result = ages.every((age) => {
 //   return age > 0;
